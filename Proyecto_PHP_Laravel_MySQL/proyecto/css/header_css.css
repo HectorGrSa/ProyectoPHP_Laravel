@@ -1,0 +1,126 @@
+
+body {
+    /background-color: #CAFAFE;/
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #666;
+    line-height: 1.5em;
+    font-family: Lucida Console;
+}
+
+h1 {
+    color: black;
+    font-size: 3.7em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: left;
+    font-weight: 300;
+}
+
+h2 {
+    color: black;
+    font-size: 1.7em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: left;
+    font-weight: 300;
+}
+
+#texto2{
+    color: black;
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    color: black;
+    margin: 0 0 1.5em 0;
+}
+
+#encabezado {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    height: 80px;
+}
+#encabezado a {
+    color: #f5f5f7;
+
+}
+
+
+
+
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#logo-header:hover {
+
+}
+
+#logo-header .site-name {
+    color: #f5f5f7;
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color:#f5f5f7;
+}
+
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    color: #f5f5f7;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+}
+
+.menu a:hover {
+    background: #0b76a6;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    min-width: 107px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #0b76a6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
